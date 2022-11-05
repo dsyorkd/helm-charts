@@ -8,7 +8,7 @@ entries:
             Moved to angelnu
     apiVersion: v2
     appVersion: latest
-    created: "2022-11-05T15:12:54.666941184Z"
+    created: "2022-11-05T15:14:16.662514193Z"
     description: A Helm chart for Kubernetes
     digest: 2cf20c3bd154dba22fc38eb8399957c6c202d589f285f061e405314477c474f4
     maintainers:
@@ -31,7 +31,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v1.8.1
-    created: "2022-11-05T15:12:54.698393092Z"
+    created: "2022-11-05T15:14:16.676331007Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -69,7 +69,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.2.0
-    created: "2022-11-05T15:12:54.690785576Z"
+    created: "2022-11-05T15:14:16.668198981Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -108,7 +108,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-11-05T15:12:54.70193964Z"
+    created: "2022-11-05T15:14:16.679483556Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -149,7 +149,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 0.6.2
-    created: "2022-11-05T15:12:54.713056803Z"
+    created: "2022-11-05T15:14:16.688897803Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -186,7 +186,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v3.7.1
-    created: "2022-11-05T15:12:54.716385541Z"
+    created: "2022-11-05T15:14:16.692047852Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -219,7 +219,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v1.8.1
-    created: "2022-11-05T15:12:54.724611683Z"
+    created: "2022-11-05T15:14:16.698416251Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -253,7 +253,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v1.6.1
-    created: "2022-11-05T15:12:54.720076195Z"
+    created: "2022-11-05T15:14:16.695015098Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -288,7 +288,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.2.0
-    created: "2022-11-05T15:12:54.730977848Z"
+    created: "2022-11-05T15:14:16.705614763Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -321,7 +321,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.3.0
-    created: "2022-11-05T15:12:54.727788516Z"
+    created: "2022-11-05T15:14:16.70287692Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -355,7 +355,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v2.0.9200
-    created: "2022-11-05T15:12:54.739363297Z"
+    created: "2022-11-05T15:14:16.712721073Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -366,8 +366,8 @@ entries:
       version: 12.1.0
     description: Tiny Tiny RSS is a free and open source web-based news feed (RSS/Atom)
       reader and aggregator
-    digest: 115d7bfb6dac8673fa13c755771f769c533e31f81c87f9ac6c314c3908525f36
-    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/tt-rss
+    digest: f88ccf930db4f78fe404e9e19db7addd8e2d85b04711e743acb70749674595af
+    home: https://github.com/angelnu/helm-charts/tree/main/charts/apps/tt-rss
     icon: https://raw.githubusercontent.com/angelnu/helm-charts/gh-pages/icons/tt-rss-favicon-72px.png
     keywords:
     - tt-rss
@@ -393,7 +393,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-11-05T15:12:54.748097961Z"
+    created: "2022-11-05T15:14:16.719468178Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -427,7 +427,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-11-05T15:12:54.744635317Z"
+    created: "2022-11-05T15:14:16.715608018Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -450,4 +450,4 @@ entries:
     urls:
     - https://angelnu.github.io/helm-charts/apps/zalando-postgres-cluster-1.0.0.tgz
     version: 1.0.0
-generated: "2022-11-05T15:12:54.666019145Z"
+generated: "2022-11-05T15:14:16.661881683Z"
