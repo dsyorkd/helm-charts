@@ -5,11 +5,42 @@ entries:
       artifacthub.io/changes: |-
         - kind: changed
           description: |
+            **BREAKING**: Updated library version to 1.0.1.
+          links:
+            - name: Common library chart definition
+              url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
+    apiVersion: v2
+    appVersion: latest
+    created: "2022-11-06T01:27:17.251661908Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts
+      version: 1.0.1
+    description: Multiplexer for lorawan gateway packages
+    digest: 953f0557e17118e654ef76feded9fb9d3ee8a581f83477bec0cc1a6aeb4cdf30
+    home: https://github.com/angelnu/helm-charts/tree/main/charts/apps/chirpstack-packet-multiplexer
+    icon: https://www.chirpstack.io/static/logo.png
+    keywords:
+    - lorawan
+    - chirpstack
+    maintainers:
+    - email: git@angelnu.com
+      name: angelnu
+    name: chirpstack-packet-multiplexer
+    sources:
+    - https://github.com/angelnu/chirpstack-packet-multiplexer
+    urls:
+    - https://angelnu.github.io/helm-charts/apps/chirpstack-packet-multiplexer-3.0.0.tgz
+    version: 3.0.0
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: |
             Include persistency
             Dissable probes
     apiVersion: v2
     appVersion: latest
-    created: "2022-11-06T01:25:38.889776015Z"
+    created: "2022-11-06T01:27:17.244648142Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -40,7 +71,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: latest
-    created: "2022-11-06T01:25:38.88721927Z"
+    created: "2022-11-06T01:27:17.239528995Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -68,7 +99,7 @@ entries:
             Moved to angelnu
     apiVersion: v2
     appVersion: latest
-    created: "2022-11-06T01:25:38.884622925Z"
+    created: "2022-11-06T01:27:17.235309255Z"
     description: A Helm chart for Kubernetes
     digest: 9cece8c87afa5192eddc629b3faec5483b1067ef55230b6e76a8d13ea381bbea
     maintainers:
@@ -84,6 +115,43 @@ entries:
       artifacthub.io/changes: |-
         - kind: changed
           description: |
+            **BREAKING**: Updated library version to 1.0.1.
+          links:
+            - name: Common library chart definition
+              url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
+    apiVersion: v2
+    appVersion: v1.8.1
+    created: "2022-11-06T01:27:17.301077268Z"
+    dependencies:
+    - condition: cert-manager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: v1.10.0
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts
+      version: 1.0.1
+    description: Cert-Manager Webhook for DNSMadeEasy
+    digest: 30e14b76bd002d453da58926ef5c3d3975dfa3549a8ee00b8f552c9a79c2e647
+    home: https://github.com/angelnu/helm-charts/tree/main/charts/apps/dnsmadeeasy-webhook
+    icon: https://raw.githubusercontent.com/angelnu/helm-charts/gh-pages/icons/dnsmadeeasy.png
+    keywords:
+    - cert-manager
+    - dnsmadeeasy
+    - letsencrypt
+    maintainers:
+    - email: git@angelnu.com
+      name: angelnu
+    name: dnsmadeeasy-webhook
+    sources:
+    - https://github.com/angelnu/dnsmadeeasy-webhook
+    - https://cert-manager.io
+    urls:
+    - https://angelnu.github.io/helm-charts/apps/dnsmadeeasy-webhook-5.0.0.tgz
+    version: 5.0.0
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: |
             Moved to angelnu
             Updated library version to 0.2.2
           links:
@@ -91,7 +159,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v1.8.1
-    created: "2022-11-06T01:25:38.918916926Z"
+    created: "2022-11-06T01:27:17.285462922Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -129,7 +197,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.2.0
-    created: "2022-11-06T01:25:38.912740117Z"
+    created: "2022-11-06T01:27:17.274659822Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -161,6 +229,45 @@ entries:
       artifacthub.io/changes: |-
         - kind: changed
           description: |
+            **BREAKING**: Updated library version to 1.0.1.
+          links:
+            - name: Common library chart definition
+              url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-11-06T01:27:17.310223453Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts
+      version: 1.0.1
+    description: Streams graphic applications/games (retroarch, firefox, steam) runing
+      on Kubernetes
+    digest: 34d8416e531fe2a423a20dfccaac786a7c64d404c411efe14339bc2d9fc77de2
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/games-on-whales
+    icon: https://raw.githubusercontent.com/angelnu/helm-charts/gh-pages/icons/gow-logo.png
+    keywords:
+    - games-on-whales
+    - steam
+    - X11
+    - pulse
+    - stream
+    - retroarch
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: gits@angelnu.com
+      name: angelnu
+    - email: beltramo.ale@gmail.com
+      name: ABeltramo
+    name: games-on-whales
+    sources:
+    - https://github.com/games-on-whales/gow
+    urls:
+    - https://angelnu.github.io/helm-charts/apps/games-on-whales-2.0.0.tgz
+    version: 2.0.0
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: |
             Moved to angelnu
             Updated library version to 0.2.2.
           links:
@@ -168,7 +275,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-11-06T01:25:38.922891495Z"
+    created: "2022-11-06T01:27:17.30563911Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -202,6 +309,42 @@ entries:
       artifacthub.io/changes: |-
         - kind: changed
           description: |
+            **BREAKING**: Updated library version to 1.0.1.
+          links:
+            - name: Common library chart definition
+              url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
+    apiVersion: v2
+    appVersion: 0.6.2
+    created: "2022-11-06T01:27:17.339150022Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.0
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts
+      version: 1.0.1
+    description: Maddy Mail Server
+    digest: 2f09817123f70c8bc9afd192be1c45ff154b57118c40214e1f57dd0f0abccffc
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/maddy
+    icon: https://upload.wikimedia.org/wikipedia/commons/b/b1/Email_Shiny_Icon.svg
+    keywords:
+    - maddy
+    - mail
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: git@angelnu.com
+      name: angelnu
+    name: maddy
+    sources:
+    - https://github.com/foxcpp/maddy
+    urls:
+    - https://angelnu.github.io/helm-charts/apps/maddy-4.0.0.tgz
+    version: 4.0.0
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: |
             Moved to angelnu
             Updated library version to 0.2.2
           links:
@@ -209,7 +352,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 0.6.2
-    created: "2022-11-06T01:25:38.929870818Z"
+    created: "2022-11-06T01:27:17.327984418Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -240,6 +383,37 @@ entries:
       artifacthub.io/changes: |-
         - kind: changed
           description: |
+            **BREAKING**: Updated library version to 1.0.1.
+          links:
+            - name: Common library chart definition
+              url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
+    apiVersion: v2
+    appVersion: v3.7.1
+    created: "2022-11-06T01:27:17.365256665Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts
+      version: 1.0.1
+    description: multus CNI allows multiple NICs per pod
+    digest: 0a1608d43fae652fa097eb544b29424fa453034dc6c2af78ce84d7e40d25cbe1
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/multus
+    icon: https://raw.githubusercontent.com/k8snetworkplumbingwg/multus-cni/master/docs/images/Multus.png
+    keywords:
+    - multus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: git@angelnu.com
+      name: angelnu
+    name: multus
+    sources:
+    - https://github.com/k8snetworkplumbingwg/multus-cni
+    urls:
+    - https://angelnu.github.io/helm-charts/apps/multus-4.0.0.tgz
+    version: 4.0.0
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: |
             Moved to angelnu
             Updated library version to 0.2.2
           links:
@@ -247,7 +421,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v3.7.1
-    created: "2022-11-06T01:25:38.933796387Z"
+    created: "2022-11-06T01:27:17.354866968Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -273,6 +447,39 @@ entries:
       artifacthub.io/changes: |-
         - kind: changed
           description: |
+            **BREAKING**: Updated library version to 1.0.1.
+          links:
+            - name: Common library chart definition
+              url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
+    apiVersion: v2
+    appVersion: v1.8.1
+    created: "2022-11-06T01:27:17.388557282Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts
+      version: 1.0.1
+    description: Admision controller to change the default gateway and DNS server
+      of PODs
+    digest: efb1739ac3438cd11f9294ed476c45148a26fbc61560494b4686a91ad516c9e9
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/pod-gateway
+    icon: https://kubernetes.io/images/wheel.svg
+    keywords:
+    - pod-gateway
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: git@angelnu.com
+      name: angelnu
+    name: pod-gateway
+    sources:
+    - https://github.com/k8s-at-home/gateway-admision-controller
+    - https://github.com/k8s-at-home/pod-gateway
+    urls:
+    - https://angelnu.github.io/helm-charts/apps/pod-gateway-6.0.0.tgz
+    version: 6.0.0
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: |
             Moved to angelnu
             Updated library version to 0.2.2.
           links:
@@ -280,7 +487,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v1.8.1
-    created: "2022-11-06T01:25:38.939284483Z"
+    created: "2022-11-06T01:27:17.383206832Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -314,7 +521,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v1.6.1
-    created: "2022-11-06T01:25:38.936530834Z"
+    created: "2022-11-06T01:27:17.373861345Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -342,6 +549,38 @@ entries:
       artifacthub.io/changes: |-
         - kind: changed
           description: |
+            **BREAKING**: Updated library version to 1.0.1.
+          links:
+            - name: Common library chart definition
+              url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
+    apiVersion: v2
+    appVersion: 1.2.0
+    created: "2022-11-06T01:27:17.418356259Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts
+      version: 1.0.1
+    description: Creates ingress reverse-proxies for external hosts with minimum boilerplate
+    digest: d28d9fb7c3492f65bf2109a6a4878a8a8dd237fd90fae653242d6f8cca036ba9
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/reverse-proxy
+    icon: https://kubernetes.io/images/wheel.svg
+    keywords:
+    - reverse-proxy
+    - ingress
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: git@angelnu.com
+      name: angelnu
+    name: reverse-proxy
+    sources:
+    - https://kubernetes.io/docs/concepts/services-networking/ingress/
+    urls:
+    - https://angelnu.github.io/helm-charts/apps/reverse-proxy-3.0.0.tgz
+    version: 3.0.0
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: |
             Moved to angelnu
             Updated library version to 0.2.2.
           links:
@@ -349,7 +588,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.2.0
-    created: "2022-11-06T01:25:38.947449926Z"
+    created: "2022-11-06T01:27:17.410807289Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -382,7 +621,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.3.0
-    created: "2022-11-06T01:25:38.941875728Z"
+    created: "2022-11-06T01:27:17.406522549Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -409,6 +648,42 @@ entries:
       artifacthub.io/changes: |-
         - kind: changed
           description: |
+            **BREAKING**: Updated library version to 1.0.1.
+          links:
+            - name: Common library chart definition
+              url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
+    apiVersion: v2
+    appVersion: v2.0.9200
+    created: "2022-11-06T01:27:17.462975075Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.0
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts
+      version: 1.0.1
+    description: Tiny Tiny RSS is a free and open source web-based news feed (RSS/Atom)
+      reader and aggregator
+    digest: a346994c064b529f44eb71678ab2010672d4e0a31cb75d195f02d8b65f12f6d7
+    home: https://github.com/angelnu/helm-charts/tree/main/charts/apps/tt-rss
+    icon: https://raw.githubusercontent.com/angelnu/helm-charts/gh-pages/icons/tt-rss-favicon-72px.png
+    keywords:
+    - tt-rss
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: git@angelnu.com
+      name: angelnu
+    name: tt-rss
+    sources:
+    - https://git.tt-rss.org/fox/tt-rss
+    urls:
+    - https://angelnu.github.io/helm-charts/apps/tt-rss-6.0.0.tgz
+    version: 6.0.0
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: |
             Moved to angelnu
             Updated library version to 0.2.2
           links:
@@ -416,7 +691,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: v2.0.9200
-    created: "2022-11-06T01:25:38.954415348Z"
+    created: "2022-11-06T01:27:17.448345738Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -447,6 +722,39 @@ entries:
       artifacthub.io/changes: |-
         - kind: changed
           description: |
+            **BREAKING**: Updated library version to 1.0.1.
+          links:
+            - name: Common library chart definition
+              url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-11-06T01:27:17.480883241Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts
+      version: 1.0.1
+    description: Creates a postgres cluster using the Zalando Postgres operator and
+      local storage
+    digest: b46b8c6e7c34632455bc2ed8be98c7a6216ed24ff01a02d1625a7281a49fd48f
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/zalando-postgres-cluster
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png
+    keywords:
+    - postgres
+    - operator
+    - zalando
+    maintainers:
+    - email: git@angelnu.com
+      name: angelnu
+    name: zalando-postgres-cluster
+    sources:
+    - https://github.com/zalando/postgres-operator
+    urls:
+    - https://angelnu.github.io/helm-charts/apps/zalando-postgres-cluster-4.0.0.tgz
+    version: 4.0.0
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: |
             Moved to angelnu
             Updated library version to 0.2.2.
           links:
@@ -454,7 +762,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-11-06T01:25:38.961034664Z"
+    created: "2022-11-06T01:27:17.473756975Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -488,7 +796,7 @@ entries:
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-11-06T01:25:38.958335017Z"
+    created: "2022-11-06T01:27:17.467416716Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -511,4 +819,4 @@ entries:
     urls:
     - https://angelnu.github.io/helm-charts/apps/zalando-postgres-cluster-1.0.0.tgz
     version: 1.0.0
-generated: "2022-11-06T01:25:38.883962013Z"
+generated: "2022-11-06T01:27:17.223696547Z"
